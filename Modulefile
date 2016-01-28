@@ -1,11 +1,10 @@
-name    'emahags-apachefixes'
-version '0.1.0'
-source 'UNKNOWN'
+name    'puppet-module-apachefixes'
+version '0.2.0'
+source 'git://github.com/emahags/puppet-module-apachefixes.git'
 author 'emahags'
 license 'Apache License, Version 2.0'
-summary 'UNKNOWN'
-description 'UNKNOWN'
-project_page 'UNKNOWN'
+summary 'Wrapper module for apache'
+description 'Wrapper module for apache'
+project_page 'https://github.com/emahags/puppet-module-apachefixes'
 
-## Add dependencies, if any:
-# dependency 'username/name', '>= 1.2.0'
+dependency 'puppetlabs/apache', '>= 0.1.2'
